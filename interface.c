@@ -26,7 +26,7 @@ void adminlog()
     printf("\t\t\t\t---------------------------------------------------------------------------------------------------\n");
     printf("\t\t\t\t\t\t\tWelcome to Sri Lankan Parliament Election Voting System\n");
     printf("\t\t\t\t---------------------------------------------------------------------------------------------------\n\n");
-    printf("\t\t\t\t\t\t\t\t** ADMIN login **\n\n");
+    printf("\t\t\t\t\t\t\t\t\t** ADMIN login **\n\n");
 
     admlog = fopen("admin.txt", "r");
 
