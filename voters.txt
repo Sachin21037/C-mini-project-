@@ -1,0 +1,12 @@
+Name:
+ sachin ssasasAddress:
+ 11ddggBirth year: 1999
+Age: 26
+NIC: 
+1234509876
+Name:
+ ssskkk kkkAddress:
+ ssggffBirth year: 2000
+Age: 25
+NIC: 
+2134567890
