@@ -10,3 +10,9 @@ Name:
 Age: 25
 NIC: 
 2134567890
+Name:
+ Bandara hapuAddress:
+ wtsrsBirth year: 2004
+Age: 21
+NIC: 
+123456789112

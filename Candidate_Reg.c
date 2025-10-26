@@ -233,7 +233,7 @@ void candidate_reg()
 
         } while (((n5 == 'Y' || n5 == 'y') && (count5 <= 5)));
         printf("All Candidates are registered!!!!");
-        break;s
+        break;
     default:
         printf("Invalid Party Number!!!");
     }
