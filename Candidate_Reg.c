@@ -101,7 +101,7 @@ void candidate_reg()
 
             // Give Candidate Nic
             printf("\n\t\tEnter your NIC No : ");
-            scanf("%s", nic);
+            scanf(" %s", nic);
 
             int nicLength = strlen(nic);
             if (nicLength != 10 && nicLength != 12)
