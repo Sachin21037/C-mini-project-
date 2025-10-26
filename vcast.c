@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 
 
 void votecast()
@@ -136,7 +137,7 @@ void votecast()
         while (fgets(line, sizeof(line), party1))
         {
             lineNumber++;
-            if (lineNumber == 2) // skip only the second line (Party 1 Details)
+            if (lineNumber == 1) // skip only the second line (Party 1 Details)
                 continue;
 
             printf("%s", line);
@@ -153,7 +154,7 @@ void votecast()
         while (fgets(line, sizeof(line), party2))
         {
          lineNumber++;
-            if (lineNumber == 2) // skip only the second line (Party 1 Details)
+            if (lineNumber == 1) // skip only the second line (Party 1 Details)
                 continue;
 
             printf("%s", line);
@@ -168,7 +169,7 @@ void votecast()
         while (fgets(line, sizeof(line), party3))
         {
             lineNumber++;
-            if (lineNumber == 2) // skip only the second line (Party 1 Details)
+            if (lineNumber == 1) // skip only the second line (Party 1 Details)
                 continue;
 
             printf("%s", line);
@@ -264,6 +265,7 @@ void votecast()
             } while ((v > 0) && (voteagain == 'y' || voteagain == 'Y'));
 
             break;
+             system("cls");
 
         case 2:
             printf("You voted for party 2\n");
@@ -314,6 +316,7 @@ void votecast()
             } while ((v > 0) && (voteagain == 'y' || voteagain == 'Y'));
 
             break;
+             system("cls");
         case 3:
             printf("You voted for party 3\n");
             do
@@ -363,6 +366,7 @@ void votecast()
             } while ((v > 0) && (voteagain == 'y' || voteagain == 'Y'));
 
             break;
+             system("cls");
         case 4:
             printf("You voted for party 4\n");
             do
@@ -412,6 +416,7 @@ void votecast()
             } while ((v > 0) && (voteagain == 'y' || voteagain == 'Y'));
 
             break;
+             system("cls");
         case 5:
             printf("You voted for party 5\n");
             do
@@ -461,6 +466,7 @@ void votecast()
             } while ((v > 0) && (voteagain == 'y' || voteagain == 'Y'));
 
             break;
+             system("cls");
         default:
             printf("Invalid party number\n");
         }
@@ -477,7 +483,8 @@ void votecast()
             fscanf(adminfile, "%s", adminpass);
             if ((strcmp(adminpass, adpass)) == 0)
                 ;
-            {
+            { 
+                system("cls");
                 printf("admin verified\n");
                 printf("do you want to end the voting?(type 'd' to end): ");
                 scanf(" %s", &adminchoice);

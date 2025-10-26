@@ -24,7 +24,7 @@ void adminlog()
     char line[100];
     int choice;
     printf("\t\t\t\t---------------------------------------------------------------------------------------------------\n");
-    printf("\t\t\t\t\t\t\t\t\tWelcome to Sri Lankan Parliament Election Voting System\n");
+    printf("\t\t\t\t\t\t\t\tWelcome to Sri Lankan Parliament Election Voting System\n");
     printf("\t\t\t\t---------------------------------------------------------------------------------------------------\n\n");
     printf("\t\t\t\t\t\t\t\t** ADMIN login **\n\n");
 
@@ -48,7 +48,7 @@ void adminlog()
     {
         system("cls");
         printf("\t\t\t\t---------------------------------------------------------------------------------------------------\n");
-        printf("\t\t\t\t\t\t\t\t\tWelcome to Sri Lankan Parliament Election Voting System\n");
+        printf("\t\t\t\t\t\t\t\tWelcome to Sri Lankan Parliament Election Voting System\n");
         printf("\t\t\t\t---------------------------------------------------------------------------------------------------\n\n");
         printf("\t\t\t\t\t\t\t\t** ADMIN PANEL  **\n\n");
 

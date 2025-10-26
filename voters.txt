@@ -1,18 +1,18 @@
 Name:
- sachin ssasasAddress:
- 11ddggBirth year: 1999
-Age: 26
+ sachib shehanAddress:
+ sssassssasssBirth year: 2002
+Age: 23
 NIC: 
-1234509876
+1234567890
 Name:
- ssskkk kkkAddress:
- ssggffBirth year: 2000
+ dinethAddress:
+ ssasdfdBirth year: 2000
 Age: 25
 NIC: 
-2134567890
+1234567809
 Name:
- Bandara hapuAddress:
- wtsrsBirth year: 2004
-Age: 21
+ nithilaAddress:
+ asdfghjBirth year: 2000
+Age: 25
 NIC: 
-123456789112
+0987654321
