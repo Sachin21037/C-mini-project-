@@ -120,8 +120,8 @@ void candidate_reg()
             {
                 printf("Cannot write Data into the file!!!");
             }
-            fprintf(fp, "\n%s\n %s\n", name, nic);
-            fclose(fp);
+            fprintf(party, "\n%s\n %s\n", name, nic);
+            fclose(party);
 
         } while (((n2 == 'Y' || n2 == 'y') && (count2 <= 5)));
         printf("All Candidates are registered!!!!");
