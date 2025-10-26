@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <string.h>
+#include <stdlib.h>
 
 void adminlog();
 void registerpartie();
@@ -23,7 +24,7 @@ void adminlog()
     char line[100];
     int choice;
     printf("\t\t\t\t---------------------------------------------------------------------------------------------------\n");
-    printf("\t\t\\t\t\t\t\t\ttWelcome to Sri Lankan Parliament Election Voting System\n");
+    printf("\t\t\t\t\t\t\t\t\tWelcome to Sri Lankan Parliament Election Voting System\n");
     printf("\t\t\t\t---------------------------------------------------------------------------------------------------\n\n");
     printf("\t\t\t\t\t\t\t\t** ADMIN login **\n\n");
 
@@ -42,10 +43,12 @@ void adminlog()
     fgets(line, sizeof(line), admlog); // 2nd line
     fscanf(admlog, "%s", adminpass);
     if ((strcmp(adminpass, adpass)) == 0)
+    
 
     {
+        system("cls");
         printf("\t\t\t\t---------------------------------------------------------------------------------------------------\n");
-        printf("\t\t\\t\t\t\t\t\ttWelcome to Sri Lankan Parliament Election Voting System\n");
+        printf("\t\t\t\t\t\t\t\t\tWelcome to Sri Lankan Parliament Election Voting System\n");
         printf("\t\t\t\t---------------------------------------------------------------------------------------------------\n\n");
         printf("\t\t\t\t\t\t\t\t** ADMIN PANEL  **\n\n");
 
@@ -70,15 +73,23 @@ void adminlog()
             {
             case 1:
                 registerpartie();
+                system("cls");
+                 printf("\t\t\t\t---------------------------------------------------------------------------------------------------\n");
                 break;
             case 2:
                 candidate_reg();
+                system("cls");
+                 printf("\t\t\t\t---------------------------------------------------------------------------------------------------\n");
                 break;
             case 3:
                 voterreg();
+                system("cls");
+                 printf("\t\t\t\t---------------------------------------------------------------------------------------------------\n");
                 break;
             case 4:
                 votecast();
+                system("cls");
+                 printf("\t\t\t\t---------------------------------------------------------------------------------------------------\n");
                 break;
 
             case 5:
