@@ -43,14 +43,13 @@ void adminlog()
     fgets(line, sizeof(line), admlog); // 2nd line
     fscanf(admlog, "%s", adminpass);
     if ((strcmp(adminpass, adpass)) == 0)
-    
 
     {
         system("cls");
         printf("\t\t\t\t---------------------------------------------------------------------------------------------------\n");
-        printf("\t\t\t\t\t\t\t\tWelcome to Sri Lankan Parliament Election Voting System\n");
+        printf("\t\t\t\t\t\t\tWelcome to Sri Lankan Parliament Election Voting System\n");
         printf("\t\t\t\t---------------------------------------------------------------------------------------------------\n\n");
-        printf("\t\t\t\t\t\t\t\t** ADMIN PANEL  **\n\n");
+        printf("\t\t\t\t\t\t\t\t\t** ADMIN panel **\n\n");
 
         printf("\t\t\t\t\t\t\tAccess Granted!\n");
         do
@@ -74,22 +73,22 @@ void adminlog()
             case 1:
                 registerpartie();
                 system("cls");
-                 printf("\t\t\t\t---------------------------------------------------------------------------------------------------\n");
+                printf("\t\t\t\t---------------------------------------------------------------------------------------------------\n");
                 break;
             case 2:
                 candidate_reg();
                 system("cls");
-                 printf("\t\t\t\t---------------------------------------------------------------------------------------------------\n");
+                printf("\t\t\t\t---------------------------------------------------------------------------------------------------\n");
                 break;
             case 3:
                 voterreg();
                 system("cls");
-                 printf("\t\t\t\t---------------------------------------------------------------------------------------------------\n");
+                printf("\t\t\t\t---------------------------------------------------------------------------------------------------\n");
                 break;
             case 4:
                 votecast();
                 system("cls");
-                 printf("\t\t\t\t---------------------------------------------------------------------------------------------------\n");
+                printf("\t\t\t\t---------------------------------------------------------------------------------------------------\n");
                 break;
 
             case 5:
@@ -101,7 +100,6 @@ void adminlog()
             default:
                 printf("Invalid choice! enter again!!!\n");
             }
-            
 
         } while (choice != 6);
     }
