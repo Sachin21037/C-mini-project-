@@ -5,7 +5,7 @@ void votecount()
 {
     FILE *ptr;
     char votecount[50];
-
+    
     char *ca1p1 = "candidate 1 of party 1:1";
     char *ca2p1 = "candidate 2 of party 1:1";
     char *ca3p1 = "candidate 3 of party 1:1";
@@ -157,33 +157,38 @@ void votecount()
     }
     fclose(ptr);
 
+    printf("--|Party 1 Vote Count|--\n");
     printf("candidate 1 of party 1:%d\n", p1c1);
     printf("candidate 2 of party 1:%d\n", p1c2);
     printf("candidate 3 of party 1:%d\n", p1c3);
     printf("candidate 4 of party 1:%d\n", p1c4);
-    printf("candidate 5 of party 1:%d\n", p1c5);
+    printf("candidate 5 of party 1:%d\n\n", p1c5);
 
+    printf("--|Party 2 Vote Count|--\n");
     printf("candidate 1 of party 2:%d\n", p2c1);
     printf("candidate 2 of party 2:%d\n", p2c2);
     printf("candidate 3 of party 2:%d\n", p2c3);
     printf("candidate 4 of party 2:%d\n", p2c4);
-    printf("candidate 5 of party 2:%d\n", p2c5);
+    printf("candidate 5 of party 2:%d\n\n", p2c5);
 
+    printf("--|Party 3 Vote Count|--\n");
     printf("candidate 1 of party 3:%d\n", p3c1);
     printf("candidate 2 of party 3:%d\n", p3c2);
     printf("candidate 3 of party 3:%d\n", p3c3);
     printf("candidate 4 of party 3:%d\n", p3c4);
-    printf("candidate 5 of party 3:%d\n", p3c5);
+    printf("candidate 5 of party 3:%d\n\n", p3c5);
 
+    printf("--|Party 4 Vote Count|--\n");
     printf("candidate 1 of party 4:%d\n", p4c1);
     printf("candidate 2 of party 4:%d\n", p4c2);
     printf("candidate 3 of party 4:%d\n", p4c3);
     printf("candidate 4 of party 4:%d\n", p4c4);
-    printf("candidate 5 of party 4:%d\n", p4c5);
+    printf("candidate 5 of party 4:%d\n\n", p4c5);
 
+    printf("--|Party 5 Vote Count|--\n");
     printf("candidate 1 of party 5:%d\n", p5c1);
     printf("candidate 2 of party 5:%d\n", p5c2);
     printf("candidate 3 of party 5:%d\n", p5c3);
     printf("candidate 4 of party 5:%d\n", p5c4);
-    printf("candidate 5 of party 5:%d\n", p5c5);
+    printf("candidate 5 of party 5:%d\n", p5c5);
 }
