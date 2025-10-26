@@ -24,14 +24,14 @@ void adminlog()
     char line[100];
     int choice;
     printf("\t\t\t\t---------------------------------------------------------------------------------------------------\n");
-    printf("\t\t\t\t\t\t\t\tWelcome to Sri Lankan Parliament Election Voting System\n");
+    printf("\t\t\t\t\t\t\tWelcome to Sri Lankan Parliament Election Voting System\n");
     printf("\t\t\t\t---------------------------------------------------------------------------------------------------\n\n");
     printf("\t\t\t\t\t\t\t\t** ADMIN login **\n\n");
 
     admlog = fopen("admin.txt", "r");
 
-    printf("enter admin password:");
-    scanf("%s", adpass);
+    printf("\t\tenter admin password:");
+    scanf("\t\t%s", adpass);
     FILE *adminfile;
     adminfile = fopen("admin.txt", "r");
     if (adminfile == NULL)
